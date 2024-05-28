@@ -36,3 +36,19 @@ This is normal text
 ```
 
 Some of the void elements are `<hr/>`
+
+| Name  | City   | Course   |
+| ----- | ------ | -------- |
+| Jay   | Rajkot | WD       |
+| Ajay  | Surat  | FrontEnd |
+| Sanay | Baroda | PHP      |
+
+> Hey
+
+:) :(
+
+😒
+
+- one
+- two
+  - three
