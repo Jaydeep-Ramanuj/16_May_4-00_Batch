@@ -1,0 +1,276 @@
+<mxfile host="app.diagrams.net" modified="2024-05-23T11:55:48.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="PS4p3_2FY5YfGV7XcnIY" version="24.4.6" type="device">
+  <diagram name="Page-1" id="edS70O578h6hOBuQykVs">
+    <mxGraphModel dx="2240" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-1" value="Citizens" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-3" value="Register / Login" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-4" value="Citizen Database" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-1" target="zI63VIj2qQUBMc77Qx5Z-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="390" as="sourcePoint" />
+            <mxPoint x="90" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-6" value="Register / Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-5">
+          <mxGeometry x="0.2391" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-3" target="zI63VIj2qQUBMc77Qx5Z-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="370" as="sourcePoint" />
+            <mxPoint x="200" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-8" value="Acknowledge" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-7">
+          <mxGeometry x="0.46" y="-2" relative="1" as="geometry">
+            <mxPoint x="18" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-3" target="zI63VIj2qQUBMc77Qx5Z-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="180" as="sourcePoint" />
+            <mxPoint x="210" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-10" value="Check citizen&amp;nbsp;&lt;div&gt;info&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-9">
+          <mxGeometry x="0.1871" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-4" target="zI63VIj2qQUBMc77Qx5Z-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="170" as="sourcePoint" />
+            <mxPoint x="450" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-12" value="Provides citizen&amp;nbsp;&lt;div&gt;info&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-11">
+          <mxGeometry x="0.208" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-13" value="Vaccine center" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-14" value="&amp;nbsp;Vaccine status" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-15" value="Certificate" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="zI63VIj2qQUBMc77Qx5Z-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="400" as="sourcePoint" />
+            <mxPoint x="160" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-17" value="Check vaccine&amp;nbsp;&lt;div&gt;status for&amp;nbsp;&lt;/div&gt;&lt;div&gt;1 &amp;amp; 2 dose&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-16">
+          <mxGeometry x="-0.0316" y="2" relative="1" as="geometry">
+            <mxPoint x="26" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-18" value="Provides vaccine&amp;nbsp;&lt;div&gt;status&amp;nbsp;&lt;div&gt;info for&amp;nbsp;&lt;/div&gt;&lt;div&gt;1 &amp;amp; 2 dose&lt;/div&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-14" target="zI63VIj2qQUBMc77Qx5Z-1">
+          <mxGeometry x="0.0285" y="4" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="340" as="sourcePoint" />
+            <mxPoint x="330" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-4" target="zI63VIj2qQUBMc77Qx5Z-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="140" as="sourcePoint" />
+            <mxPoint x="280" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-20" value="Gives Citizen&amp;nbsp;&lt;div&gt;info&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-19">
+          <mxGeometry x="-0.2942" relative="1" as="geometry">
+            <mxPoint x="11" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-14" target="zI63VIj2qQUBMc77Qx5Z-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="100" as="sourcePoint" />
+            <mxPoint x="410" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-23" value="Sets citizen&amp;nbsp;&lt;div&gt;vaccine info&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-22">
+          <mxGeometry x="0.1898" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-24" value="Vaccine center Database" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-24" target="zI63VIj2qQUBMc77Qx5Z-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="200" as="sourcePoint" />
+            <mxPoint x="570" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-27" value="Gives vaccine&amp;nbsp;&lt;div&gt;center info&amp;nbsp;&lt;/div&gt;&lt;div&gt;user location&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-25">
+          <mxGeometry x="0.2014" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-13" target="zI63VIj2qQUBMc77Qx5Z-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="230" as="sourcePoint" />
+            <mxPoint x="640" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-28" value="Asks vaccine&amp;nbsp;&lt;div&gt;center info based&amp;nbsp;&lt;/div&gt;&lt;div&gt;on location&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-26">
+          <mxGeometry x="0.2391" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-29" value="Check available vaccine&amp;nbsp;&lt;div&gt;center for specific&amp;nbsp;&lt;/div&gt;&lt;div&gt;location on specific day&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-1" target="zI63VIj2qQUBMc77Qx5Z-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="430" as="sourcePoint" />
+            <mxPoint x="220" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-13" target="zI63VIj2qQUBMc77Qx5Z-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="470" as="sourcePoint" />
+            <mxPoint x="350" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-31" value="Gives available vaccine&amp;nbsp;&lt;div&gt;center info based&amp;nbsp;&lt;/div&gt;&lt;div&gt;on location and dates&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-30">
+          <mxGeometry x="-0.1636" relative="1" as="geometry">
+            <mxPoint x="-62" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-1" target="zI63VIj2qQUBMc77Qx5Z-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="470" as="sourcePoint" />
+            <mxPoint x="170" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-33" value="Requests for vaccine&amp;nbsp;&lt;div&gt;certificates for&amp;nbsp;&lt;/div&gt;&lt;div&gt;1 &amp;amp; 2 dose&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-32">
+          <mxGeometry x="-0.2269" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-15" target="zI63VIj2qQUBMc77Qx5Z-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="580" as="sourcePoint" />
+            <mxPoint x="230" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-35" value="Gives vaccine&amp;nbsp;&lt;div&gt;certificate for&amp;nbsp;&lt;/div&gt;&lt;div&gt;1 &amp;amp; 2 dose&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-34">
+          <mxGeometry x="-0.1598" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-15" target="zI63VIj2qQUBMc77Qx5Z-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="430" as="sourcePoint" />
+            <mxPoint x="500" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-39" value="Check vaccine status&amp;nbsp;&lt;div&gt;for requested&amp;nbsp;&lt;/div&gt;&lt;div&gt;user of 1 &amp;amp; 2 dose&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-37">
+          <mxGeometry x="-0.565" y="-3" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-14" target="zI63VIj2qQUBMc77Qx5Z-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="300" as="sourcePoint" />
+            <mxPoint x="420" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-41" value="Gives vaccine status&amp;nbsp;&lt;div&gt;info for requested&amp;nbsp;&lt;/div&gt;&lt;div&gt;user for 1 &amp;amp; 2 dose&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-40">
+          <mxGeometry x="-0.3832" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-43" value="Guideline center" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-44" value="Guidelines Database" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-1" target="zI63VIj2qQUBMc77Qx5Z-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="610" as="sourcePoint" />
+            <mxPoint x="180" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-46" value="Checks for corona&amp;nbsp;&lt;div&gt;guidelines based&amp;nbsp;&lt;/div&gt;&lt;div&gt;on states and districts&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="533" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.175;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-43" target="zI63VIj2qQUBMc77Qx5Z-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="690" as="sourcePoint" />
+            <mxPoint x="110" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-48" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Provides&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;guidelines based&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;on states and districts&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-47">
+          <mxGeometry x="-0.1635" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-43" target="zI63VIj2qQUBMc77Qx5Z-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="700" as="sourcePoint" />
+            <mxPoint x="510" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-50" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Checks for corona&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;guidelines based&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;on states and districts&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-49">
+          <mxGeometry x="-0.175" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI63VIj2qQUBMc77Qx5Z-44" target="zI63VIj2qQUBMc77Qx5Z-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="850" as="sourcePoint" />
+            <mxPoint x="370" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zI63VIj2qQUBMc77Qx5Z-52" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Provides&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;guidelines based&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;on states and districts&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zI63VIj2qQUBMc77Qx5Z-51">
+          <mxGeometry x="-0.2383" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
