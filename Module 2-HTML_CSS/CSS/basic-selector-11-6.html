@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* selector{
+        property-name1:property-value1;
+        property-name2:property-value2;
+      } */
+
+      /* universal selector */
+      * {
+        color: red;
+      }
+
+      /* tag name selector */
+      p {
+        color: blue;
+      }
+      i {
+        color: yellowgreen;
+      }
+      b {
+        color: violet;
+      }
+
+      /* group selector */
+      p,
+      b {
+        font-size: 32px;
+      }
+
+      /* class selector */
+      .fancy {
+        border: 1px solid red;
+      }
+
+      .bold {
+        font-weight: 600;
+      }
+
+      /* id selector */
+      #home {
+        color: brown;
+      }
+
+      /* combinator selector */
+
+      div.some {
+        color: turquoise;
+      }
+      p.some {
+        color: sienna;
+      }
+    </style>
+  </head>
+  <body>
+    <span>This is span tag</span>
+    <p>This is p tag</p>
+    <i class="fancy">This is i tag</i>
+    <b>This is b tag</b>
+
+    <div class="fancy bold">This is div tag</div>
+
+    <a href="" id="home">Home </a>
+
+    <hr />
+
+    <div>This is div tag</div>
+    <div class="some">This is div tag with some class</div>
+    <p class="some">This is p tag with some class</p>
+  </body>
+</html>
