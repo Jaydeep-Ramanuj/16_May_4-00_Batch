@@ -2,6 +2,11 @@
 
 void main(){
 
+int a; // variable declaration
+int b=10; // variable initialization
+b=20; // variable value update
+
+
 
 // data_type variable_name = variable_value ;
 

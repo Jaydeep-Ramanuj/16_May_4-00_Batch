@@ -3,6 +3,12 @@
 
 void main(){
 
+
+    // Unary operator, they require only one operand
+    // Binary operator, they require two operands
+    // Ternary operator, they require three operands
+
+
 int result = a + b; // Expression
 
 // here, result is taking value from a+b
@@ -22,18 +28,5 @@ printf("a = %d",a);
 printf("\nb = %d",b);
 
 
-// Relational operator (<, <=, >, >=, ==, !=), it checks for relations and if it is true
-
-int isLessThan= a < b;
-printf("\nIs a less than b (a<b)? : %d",isLessThan);
-
-int isGreaterThan= a > b;
-printf("\nIs a Greater than than b (a>b)? : %d",isGreaterThan);
-
-int isLessThanOrEqualTo= a <= b;
-printf("\nIs a Less than or equal to b (a<=b)? : %d",isLessThanOrEqualTo);
-
-int isGreaterThanOrEqualTo= a >= b;
-printf("\nIs a Greater than or equal to b (a>=b)? : %d",isGreaterThanOrEqualTo);
 
 }
