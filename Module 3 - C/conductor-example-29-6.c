@@ -31,15 +31,18 @@ void main(){
         if(status=='D'){
             printf("25 Rs off: %d", ticketPrice-25);
         }
-        if(status!='D'&& status=='F'){
+        else if( status=='F'){
             printf("15 Rs off: %d", ticketPrice-15);
         }
-        if(status!='D'&& status!='F'&& status=='M'){
+        else if( status=='M'){
             printf("10 Rs off: %d", ticketPrice-10);
         }
-        if(status!='D'&& status!='F'&& status!='M'){
+        else{
             printf("Full Ticket: %d", ticketPrice);
         }
+
+        printf("End of program");
+
     }
 
 }
