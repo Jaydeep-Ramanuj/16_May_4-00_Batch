@@ -27,4 +27,16 @@ for(int count=1;count<=num;count++){
 }
 printf("\n Sum of %d values is: %d",num,result);
 
+
+
+
+// We can also use for loop in reverse order by initializing it
+// with bigger value and checking if it with smaller value condition
+
+printf("\n---------------");
+
+for(int i=10;i>=1;i--){
+    printf("\nPratigna %d",i);
+}
+
 }
