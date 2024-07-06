@@ -8,7 +8,7 @@ void main(){
 //}
 
 int result=0;
-int counter=0;
+int counter=1;
 int oldResult;
    while(counter<10){
         oldResult=result;
