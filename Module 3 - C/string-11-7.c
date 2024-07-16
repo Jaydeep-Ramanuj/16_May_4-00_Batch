@@ -21,4 +21,8 @@ scanf(" %c",&status);
 
 // status = getchar("%c");
 printf("Status is: %c",status);
+
+
+
+string name ='jay';
 }
