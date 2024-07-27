@@ -1,27 +1,25 @@
 #include <stdio.h>
 
-void main(){
+void main()
+{
 
-int a; // variable declaration
-int b=10; // variable initialization
-b=20; // variable value update
+  int a;      // variable declaration
+  int b = 10; // variable initialization
+  b = 20;     // variable value update
 
+  // data_type variable_name = variable_value ;
 
-
-// data_type variable_name = variable_value ;
-
-   int num=103512;
-  int num123=9632;
-  int bhumi=456;
+  int num = 103512;
+  int num123 = 9632;
+  int bhumi = 456;
   int Bhumi = 789;
-  int b1humi=936l;
-  int bhu_mi=7412;
+  int b1humi = 936l;
+  int bhu_mi = 7412;
 
-    // int bhu!mi=1236; will give error
-    // int 1bhumi=1236; will give error
-    // int bhu mi=1236; will give error
-    // int int=1236; will give error
-
+  // int bhu!mi=1236; will give error
+  // int 1bhumi=1236; will give error
+  // int bhu mi=1236; will give error
+  // int int=1236; will give error
 
   // Naming convention
   // You can't start variable name with number or symbol
@@ -29,13 +27,17 @@ b=20; // variable value update
   // You can't use keyword as a variable name
   // You can't use space between variable name
 
+  printf("%d", bhumi);
+  printf("\n%d", Bhumi);
+  printf("\n%d", b1humi);
+  printf("\n%d", bhu_mi);
 
+  // variable naming convention
 
-    printf("%d",bhumi);
-    printf("\n%d",Bhumi);
-    printf("\n%d",b1humi);
-    printf("\n%d",bhu_mi);
+  int isloginwithemailid = 1;
 
-
-
+  int isLoginWithEmailId = 1;     // camelCase
+  int IsLoginWithEmailId = 1;     // PascleCase
+  int is_login_with_email_id = 1; // snake_case
+  // int is-login-with-email-id=1; // kabab-case
 }
