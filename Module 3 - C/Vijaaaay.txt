@@ -1,0 +1,1 @@
+users[i].nameusers[i].ageusers[i].salary
