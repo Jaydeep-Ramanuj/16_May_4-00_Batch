@@ -87,10 +87,42 @@ public:
 
 class ACRemote : public Remote
 {
+
+    bool hasTemperatureScreen;
+    string ACName;
+
+public:
+    ACRemote(int numberOfCells_, int numberOfSwitches_, string circuitType_, string sensorType_, string brandName_, int price_, bool hasMic_, string hiddenLogic_, string owner_, bool hasTemperatureScreen_, string ACName_) : Remote(numberOfCells_, numberOfSwitches_, circuitType_, sensorType_, brandName_, price_, hasMic_, hiddenLogic_, owner_)
+    {
+        hasTemperatureScreen = hasTemperatureScreen_;
+        ACName = ACName_;
+    }
+
+    void changeTemperature(int temp)
+    {
+        cout << "Temperature is now changed to " << temp << endl;
+    }
 };
-class SpeakerRemote : public Remote
+
+class SamsungACRemote : public ACRemote
 {
+
+    string samsungACModalNumber;
+    bool isAutoModeSupported;
+
+public:
+    SamsungACRemote(int numberOfCells_, int numberOfSwitches_, string circuitType_, string sensorType_, string brandName_, int price_, bool hasMic_, string hiddenLogic_, string owner_, bool hasTemperatureScreen_, string ACName_, string samsungACModalNumber_, bool isAutoModeSupported_) : ACRemote(numberOfCells_, numberOfSwitches_, circuitType_, sensorType_, brandName_, price_, hasMic_, hiddenLogic_, owner_, hasTemperatureScreen_, ACName_)
+    {
+
+        samsungACModalNumber = samsungACModalNumber_;
+        isAutoModeSupported = isAutoModeSupported_;
+    }
+    void startAutoMode()
+    {
+        cout << "Ac will now be on automatically at 5:45 PM." << endl;
+    }
 };
+
 int main()
 {
 
@@ -103,8 +135,19 @@ int main()
 
     // cout << "Number of channels: " << oneplus.NumberOfChannels << endl;
     ;
-    cout << "Owner: " << oneplus.owner << endl;
-    cout << "Owner: " << samsung.owner << endl;
+    // cout << "Owner: " << oneplus.owner << endl;
+    // cout << "Owner: " << samsung.owner << endl;
+
+    ACRemote samsungAC(2, 5, "X24", "super", "Samsung", 350, true, "This is samsung remote hidden logic", "Himanshu", true, "winter-like");
+
+    // samsungAC.changeTemperature(20);
+    // cout << "Owner: " << samsungAC.owner << endl;
+
+    SamsungACRemote samsungACRemote(3, 7, "X24", "super", "Samsung", 350, true, "This is samsung remote hidden logic", "Rachna", true, "winter-like", "AI Pro 1.5", true);
+
+    samsungACRemote.startAutoMode();
+    samsungACRemote.changeTemperature(25);
+    samsungACRemote.off("AC");
 
     return 0;
 }
